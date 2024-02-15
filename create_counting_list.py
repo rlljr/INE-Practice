@@ -13,6 +13,18 @@
 # []
 # >>> create_counting_list(-1)  # Error if -1 is passed
 # 'cannot be negative'
-
 def create_counting_list(count_to_number):
+    x = 1
+    new_list = []
+    if count_to_number == 0:
+        return new_list
+    if count_to_number < 0:
+        return 'cannot be negative'
+    while x <= count_to_number:
+        new_list.append(x)
+        x += 1
+    return new_list
+
     pass
+
+print(create_counting_list(-1))
