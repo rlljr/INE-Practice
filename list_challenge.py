@@ -68,7 +68,7 @@ else:
 list_five = [list_two[1]]
 list_five.append("puppies")
 list_five.append(var1)
-print(list_five)
+
 
 
 
