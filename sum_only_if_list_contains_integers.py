@@ -13,18 +13,14 @@
 # 0
 
 
-def create_counting_list(count_to_number):
-    x = 1
-    new_list = []
-    if count_to_number == 0:
-        return new_list
-    if count_to_number < 0:
-        return 'cannot be negative'
-    while x <= count_to_number:
-        new_list.append(x)
-        x += 1
-    return new_list
-
+def sum_if_list_of_ints(a_list):
+    the_sum = 0
+    for num in a_list:
+        if type(num) != int:
+            return ('not an int')
+        the_sum +=num
+    return the_sum
+    pass
     pass
 
-print(create_counting_list(10))
+print(sum_if_list_of_ints([10,20,30,50]))
