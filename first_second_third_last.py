@@ -19,3 +19,13 @@ def insert_human(a_list, position, elem):
 
 #print(list_1)
 print(insert_human(list_1,"first","S"))
+
+# CODE BELOW WOULD NOT WORK BECAUSE IT RETURNS NONE. CANT RETURN A LIST WITH INSERT METHOD
+# def insert_human(a_list, position, elem):
+#
+#     return a_list.insert(elem,position)
+#     pass
+#
+# list_1 = ['a', 'b', 'c']
+#
+# print(insert_human(list_1,position = 2,"x"))
