@@ -17,3 +17,6 @@ rmotr_dict['courses'].append("Django Web Development")
 
 print(rmotr_dict)
 
+for k,v in rmotr_dict.items():
+    print(k + " " + str(v))
+
