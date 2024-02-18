@@ -22,4 +22,8 @@ def random_matrix(m, n):
     pass
 
 
+
 print(random_matrix(4,5))
+
+
+####NEED TO REDO THIS, THIS CAN FAIL SOMETIMES
