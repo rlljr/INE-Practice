@@ -25,3 +25,23 @@ def create_box(height, width, char):
     pass
 
 print(create_box(5,10,':)'))
+
+holder = ''
+myrange = height + 1
+if order == "ASC":
+    for r in range(myrange):
+        for a in range(myrange):
+            if a == r:
+                break
+            holder += char
+        holder += '\n'
+    return holder.lstrip('\n')
+elif order == "DESC":
+    for r in range(myrange):
+        for a in range(myrange):
+            if a == r:
+                break
+            holder += char
+        holder += '\n'
+    return holder[::-1].lstrip('\n')
+pass
